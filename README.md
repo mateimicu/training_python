@@ -20,7 +20,42 @@ After this workshop you will be familiarized with the Pythong programming langua
 Micu Matei-Marius ( descriere )
 I can describe myself as a guy who is really into most topics related to tehnology.I'm a tinkerer and a explorer when it comes to new and exciting topics.I have been experimenting  with coding for almost 5 years, and I would never give my linux and vim away for anything. 
 
+---
+1. Python Working [10m]
+2. Introduction [75m]
+    - Basic Tipes [20m]
+        - Ints [5m]
+        - Floats [5m]
+        - Strings [5m]
+        - Lists [5m]
+    - Imports ( sys ) [10m]
+    - Basic functions [20m]
+        - len [5m]
+        - max [5m]
+        - help [5m]
+        - dir [5m]
+    - Syntax [25]
+        - if-elif-else [5m]
+        - for [5m]
+        - while [5m]
+        - functions [10m]
+3. Strings [35]
+   - functions [15m]
+   - exercitii [20m]
+4. Lists [45m]
+   - functions [15m]
+   - sorting [10]
+   - exercitii [20m]
+5. Dicts [50m]
+    - how they work [15m]
+    - functions [15m]
+6. Files [30m]
+    - open function [15m]
+    - read, write [15m]
 
+7. exercitii  ( care are cam tot ) [25m]
+
+Time: [270m]
 ---
 ## 1. Basic Sintax
 ```python
@@ -58,6 +93,9 @@ some_float = 10.2
 
 some_string = "Some string"
 another_string = """ Long string,
+on more 
+lines
+"""
 
 some_list = [1, 2, 3, 4]
 
@@ -65,7 +103,7 @@ some_tuple = (1, 2, 3)
 
 ```
 
-### 2.2 More on Lists
+### 2.1 Lists
 ```python
 >>> l = [1, 2, 3]
 >>> l[0]
